@@ -2,7 +2,7 @@ const dotenv = require('dotenv').config();
 const app = require('./express/app');
 const sequelize = require('./sequelize');
 
-const API_PORT = (process.env.PORT || 5000);
+const API_PORT = (process.env.PORT || 8080);
 const SOCKET_PORT = process.env.SOCKET_PORT;
 
 console.log(`API PORT: ${API_PORT}`);
